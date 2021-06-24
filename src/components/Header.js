@@ -27,6 +27,22 @@ function Header() {
           />
           <SearchIcon className="h-12 p-4" />
         </div>
+        {/* right */}
+        <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
+          <div className="link">
+            <p>Hello Ardit Daku</p>
+            <p className="link-text">Account & Lists</p>
+          </div>
+          <div className="link">
+            <p>Returns</p>
+            <p className="link-text">& Orders</p>
+          </div>
+          <div className="link relative flex items-center ">
+            <span className="chart-items">4</span>
+            <ShoppingCartIcon className="h-10" />
+            <p className="hidden md:inline link-text mt-2">Basket</p>
+          </div>
+        </div>
       </div>
       {/* bootom */}
       <div></div>
