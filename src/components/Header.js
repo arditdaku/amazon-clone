@@ -45,7 +45,22 @@ function Header() {
         </div>
       </div>
       {/* bootom */}
-      <div></div>
+      <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
+        <p className="link flex items-center">
+          <MenuIcon className="h-6 mr-1" />
+          All
+        </p>
+        <p className="link">Prime Video</p>
+        <p className="link">Prime Video</p>
+        <p className="link">Amazon Busines</p>
+        <p className="link">Today's Deals</p>
+        <p className="hidden-menu-item">Electronics</p>
+        <p className="hidden-menu-item">Food & Grocery</p>
+        <p className="hidden-menu-item">Prime</p>
+        <p className="hidden-menu-item">Buy Again</p>
+        <p className="hidden-menu-item">Shopper Toolkit</p>
+        <p className="hidden-menu-item">Health & Personal Care</p>
+      </div>
     </header>
   );
 }
